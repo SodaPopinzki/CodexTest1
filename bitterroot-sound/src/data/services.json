@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Podcast Editing",
+    "price": 120,
+    "description": "Full cleanup, EQ, compression, de-noising, and loudness matching for spoken-word episodes.",
+    "icon": "mic",
+    "deliveryTime": "2-3 business days"
+  },
+  {
+    "name": "Mixing",
+    "price": 180,
+    "description": "Professional multi-track balancing with depth, clarity, and competitive sonic polish.",
+    "icon": "sliders",
+    "deliveryTime": "3-5 business days"
+  },
+  {
+    "name": "Mastering",
+    "price": 90,
+    "description": "Final loudness optimization, tonal balancing, and platform-ready export prep.",
+    "icon": "waveform",
+    "deliveryTime": "1-2 business days"
+  },
+  {
+    "name": "Vocal Tuning",
+    "price": 75,
+    "description": "Natural-sounding pitch and timing correction for lead and background vocals.",
+    "icon": "music-note",
+    "deliveryTime": "2-3 business days"
+  },
+  {
+    "name": "Dialogue Cleanup",
+    "price": 110,
+    "description": "Removes clicks, hum, room noise, and harshness from interviews and voiceover.",
+    "icon": "sparkles",
+    "deliveryTime": "2-3 business days"
+  },
+  {
+    "name": "Beat Production",
+    "price": 250,
+    "description": "Custom instrumental production tailored to your references and vocal style.",
+    "icon": "drum",
+    "deliveryTime": "5-7 business days"
+  },
+  {
+    "name": "Audiobook Post-Production",
+    "price": 300,
+    "description": "Chapter-level editing, pacing refinement, and ACX-compliant mastering.",
+    "icon": "book-open",
+    "deliveryTime": "4-6 business days"
+  },
+  {
+    "name": "Stem Mastering",
+    "price": 140,
+    "description": "Enhanced control mastering from grouped stems for improved dynamics and translation.",
+    "icon": "layers",
+    "deliveryTime": "2-4 business days"
+  },
+  {
+    "name": "Live Session Editing",
+    "price": 220,
+    "description": "Comping and tightening for live band recordings while preserving performance energy.",
+    "icon": "radio",
+    "deliveryTime": "4-6 business days"
+  },
+  {
+    "name": "Sound Design",
+    "price": 200,
+    "description": "Original effects, transitions, and sonic branding elements for media projects.",
+    "icon": "bolt",
+    "deliveryTime": "3-5 business days"
+  }
+]
