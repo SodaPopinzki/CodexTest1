@@ -1,72 +1,83 @@
 [
   {
-    "name": "Podcast Editing",
-    "price": 120,
-    "description": "Full cleanup, EQ, compression, de-noising, and loudness matching for spoken-word episodes.",
-    "icon": "mic",
+    "tier": "PERSONAL",
+    "name": "Pet Tribute",
+    "price": 39.99,
+    "description": "A heartfelt song honoring your furry companion with names, memories, and love.",
+    "icon": "🐾",
     "deliveryTime": "2-3 business days"
   },
   {
-    "name": "Mixing",
-    "price": 180,
-    "description": "Professional multi-track balancing with depth, clarity, and competitive sonic polish.",
-    "icon": "sliders",
+    "tier": "PERSONAL",
+    "name": "Custom Song",
+    "price": 49.99,
+    "description": "A one-of-a-kind track built around your story, style, and message.",
+    "icon": "🎵",
+    "deliveryTime": "3-4 business days"
+  },
+  {
+    "tier": "PERSONAL",
+    "name": "Holiday Song",
+    "price": 49.99,
+    "description": "Seasonal joy in a personalized song perfect for gifts and celebrations.",
+    "icon": "🎄",
+    "deliveryTime": "3-4 business days"
+  },
+  {
+    "tier": "PERSONAL",
+    "name": "Baby Announcement",
+    "price": 59.99,
+    "description": "Share your big news with a sweet, keepsake-worthy musical announcement.",
+    "icon": "🍼",
     "deliveryTime": "3-5 business days"
   },
   {
-    "name": "Mastering",
-    "price": 90,
-    "description": "Final loudness optimization, tonal balancing, and platform-ready export prep.",
-    "icon": "waveform",
-    "deliveryTime": "1-2 business days"
+    "tier": "PERSONAL",
+    "name": "Retirement Song",
+    "price": 79.99,
+    "description": "Celebrate the next chapter with a personalized tribute to a career well-lived.",
+    "icon": "🎉",
+    "deliveryTime": "4-5 business days"
   },
   {
-    "name": "Vocal Tuning",
-    "price": 75,
-    "description": "Natural-sounding pitch and timing correction for lead and background vocals.",
-    "icon": "music-note",
-    "deliveryTime": "2-3 business days"
+    "tier": "SIGNATURE",
+    "name": "Voice Clone",
+    "price": 99.99,
+    "description": "Create a signature vocal experience using your tone and style preferences.",
+    "icon": "🎙️",
+    "deliveryTime": "4-6 business days"
   },
   {
-    "name": "Dialogue Cleanup",
-    "price": 110,
-    "description": "Removes clicks, hum, room noise, and harshness from interviews and voiceover.",
-    "icon": "sparkles",
-    "deliveryTime": "2-3 business days"
+    "tier": "SIGNATURE",
+    "name": "Wedding Song",
+    "price": 149.99,
+    "description": "A romantic, custom-crafted song for first dances, vows, or reception moments.",
+    "icon": "💍",
+    "deliveryTime": "5-7 business days",
+    "mostPopular": true
   },
   {
-    "name": "Beat Production",
-    "price": 250,
-    "description": "Custom instrumental production tailored to your references and vocal style.",
-    "icon": "drum",
+    "tier": "SIGNATURE",
+    "name": "Memorial Tribute",
+    "price": 199.99,
+    "description": "An elegant musical remembrance that honors legacy, love, and cherished memories.",
+    "icon": "🕊️",
     "deliveryTime": "5-7 business days"
   },
   {
-    "name": "Audiobook Post-Production",
-    "price": 300,
-    "description": "Chapter-level editing, pacing refinement, and ACX-compliant mastering.",
-    "icon": "book-open",
+    "tier": "BUSINESS",
+    "name": "Podcast Intro",
+    "price": 49.99,
+    "description": "A polished branded intro that sets the tone and boosts your show's identity.",
+    "icon": "🎧",
+    "deliveryTime": "2-3 business days"
+  },
+  {
+    "tier": "BUSINESS",
+    "name": "Business Jingle",
+    "price": 199.99,
+    "description": "A memorable sonic logo and jingle designed to elevate your brand recall.",
+    "icon": "📈",
     "deliveryTime": "4-6 business days"
-  },
-  {
-    "name": "Stem Mastering",
-    "price": 140,
-    "description": "Enhanced control mastering from grouped stems for improved dynamics and translation.",
-    "icon": "layers",
-    "deliveryTime": "2-4 business days"
-  },
-  {
-    "name": "Live Session Editing",
-    "price": 220,
-    "description": "Comping and tightening for live band recordings while preserving performance energy.",
-    "icon": "radio",
-    "deliveryTime": "4-6 business days"
-  },
-  {
-    "name": "Sound Design",
-    "price": 200,
-    "description": "Original effects, transitions, and sonic branding elements for media projects.",
-    "icon": "bolt",
-    "deliveryTime": "3-5 business days"
   }
 ]
