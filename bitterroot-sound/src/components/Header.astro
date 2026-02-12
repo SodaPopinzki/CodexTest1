@@ -1,0 +1,172 @@
+---
+const navLinks = [
+  { label: 'Services', href: '#services' },
+  { label: 'How It Works', href: '#how-it-works' },
+  { label: 'Pricing', href: '#pricing' },
+  { label: 'Samples', href: '#samples' },
+  { label: 'FAQ', href: '#faq' },
+  { label: 'Contact', href: '#contact' },
+];
+---
+
+<header id="site-header" class="fixed inset-x-0 top-0 z-50 border-b border-transparent bg-transparent transition-all duration-300">
+  <div class="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+    <a
+      href="#top"
+      class="group inline-flex items-center gap-3"
+      aria-label="Go to top of page"
+      data-scroll-link
+    >
+      <span class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d4c6b4] bg-[#f9f4ec] text-[#2f4f3f]">
+        <svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 15.5 6 10l2.7 3.2L12.8 7l3.5 4.4L19 8.5l3 4.5" />
+          <path d="M2 19h20" />
+        </svg>
+      </span>
+      <span class="flex flex-col">
+        <span class="font-['Playfair_Display'] text-base font-semibold tracking-[0.16em] text-[#1f3d2d] sm:text-lg">
+          BITTERROOT SOUND
+        </span>
+      </span>
+      <span class="hidden rounded-full border border-[#d6c2a7] bg-[#fbf4e8] px-3 py-1 text-xs font-medium text-[#3f5b47] lg:inline-flex">
+        Hamilton, Montana
+      </span>
+    </a>
+
+    <nav class="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class="text-sm font-medium text-[#2d4536] transition-colors hover:text-[#d4a853] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#d4a853] focus-visible:ring-offset-2"
+            data-scroll-link
+          >
+            {link.label}
+          </a>
+        ))
+      }
+      <a
+        href="#order"
+        class="rounded-full bg-[#d4a853] px-5 py-2 text-sm font-semibold text-[#21402f] transition-transform hover:-translate-y-0.5 hover:bg-[#c99b44] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#21402f] focus-visible:ring-offset-2"
+        data-scroll-link
+      >
+        Order Your Song
+      </a>
+    </nav>
+
+    <button
+      id="mobile-menu-button"
+      type="button"
+      class="inline-flex items-center justify-center rounded-md p-2 text-[#20402f] transition hover:bg-[#f3eadc] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#d4a853] md:hidden"
+      aria-label="Open mobile menu"
+      aria-controls="mobile-nav-overlay"
+      aria-expanded="false"
+    >
+      <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" />
+      </svg>
+    </button>
+  </div>
+</header>
+
+<div
+  id="mobile-nav-overlay"
+  class="pointer-events-none fixed inset-0 z-[60] flex translate-y-4 flex-col bg-[#f8f1e5]/95 px-6 pb-8 pt-24 opacity-0 backdrop-blur-sm transition duration-300 md:hidden"
+  aria-hidden="true"
+>
+  <button
+    id="mobile-menu-close"
+    type="button"
+    class="absolute right-5 top-5 rounded-md p-2 text-[#21402f] hover:bg-[#efe2cf] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#d4a853]"
+    aria-label="Close mobile menu"
+  >
+    <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M6 6l12 12M18 6 6 18" stroke-linecap="round" />
+    </svg>
+  </button>
+
+  <nav class="mt-8 flex flex-1 flex-col justify-center gap-6 text-center" aria-label="Mobile navigation">
+    {
+      navLinks.map((link) => (
+        <a
+          href={link.href}
+          class="text-2xl font-semibold text-[#1f3d2d]"
+          data-scroll-link
+          data-mobile-link
+        >
+          {link.label}
+        </a>
+      ))
+    }
+    <a
+      href="#order"
+      class="mx-auto mt-2 inline-flex rounded-full bg-[#d4a853] px-7 py-3 text-base font-semibold text-[#21402f]"
+      data-scroll-link
+      data-mobile-link
+    >
+      Order Your Song
+    </a>
+  </nav>
+</div>
+
+<script is:inline>
+  const header = document.getElementById('site-header');
+  const menuButton = document.getElementById('mobile-menu-button');
+  const closeButton = document.getElementById('mobile-menu-close');
+  const mobileOverlay = document.getElementById('mobile-nav-overlay');
+  const scrollLinks = document.querySelectorAll('[data-scroll-link]');
+  const mobileLinks = document.querySelectorAll('[data-mobile-link]');
+
+  const updateHeaderState = () => {
+    if (!header) return;
+
+    const isScrolled = window.scrollY > 16;
+    header.classList.toggle('bg-[#fffaf1]/95', isScrolled);
+    header.classList.toggle('shadow-[0_8px_24px_rgba(39,51,41,0.12)]', isScrolled);
+    header.classList.toggle('border-[#eadfce]', isScrolled);
+    header.classList.toggle('backdrop-blur', isScrolled);
+  };
+
+  const toggleMobileMenu = (open) => {
+    if (!menuButton || !mobileOverlay) return;
+
+    mobileOverlay.classList.toggle('pointer-events-none', !open);
+    mobileOverlay.classList.toggle('opacity-0', !open);
+    mobileOverlay.classList.toggle('translate-y-4', !open);
+    mobileOverlay.classList.toggle('opacity-100', open);
+    mobileOverlay.classList.toggle('translate-y-0', open);
+    mobileOverlay.setAttribute('aria-hidden', String(!open));
+    menuButton.setAttribute('aria-expanded', String(open));
+    document.body.classList.toggle('overflow-hidden', open);
+  };
+
+  const smoothScrollToTarget = (event) => {
+    const link = event.currentTarget;
+    if (!(link instanceof HTMLAnchorElement)) return;
+
+    const targetId = link.getAttribute('href');
+    if (!targetId || !targetId.startsWith('#')) return;
+
+    const targetElement = document.querySelector(targetId);
+    if (!targetElement) return;
+
+    event.preventDefault();
+    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    history.pushState(null, '', targetId);
+  };
+
+  window.addEventListener('scroll', updateHeaderState, { passive: true });
+  window.addEventListener('load', updateHeaderState);
+  updateHeaderState();
+
+  menuButton?.addEventListener('click', () => toggleMobileMenu(true));
+  closeButton?.addEventListener('click', () => toggleMobileMenu(false));
+
+  mobileLinks.forEach((link) => {
+    link.addEventListener('click', () => toggleMobileMenu(false));
+  });
+
+  scrollLinks.forEach((link) => {
+    link.addEventListener('click', smoothScrollToTarget);
+  });
+</script>
