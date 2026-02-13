@@ -7,6 +7,7 @@ import AddOns from '../components/AddOns.astro';
 import PricingCalculator from '../components/PricingCalculator.jsx';
 import Testimonials from '../components/Testimonials.astro';
 import AudioPlayer from '../components/AudioPlayer.jsx';
+import ContactForm from '../components/ContactForm.jsx';
 ---
 
 <Layout title="Bitterroot Sound | Your Story. Your Voice. Your Song.">
@@ -16,5 +17,6 @@ import AudioPlayer from '../components/AudioPlayer.jsx';
   <AddOns />
   <PricingCalculator client:load />
   <AudioPlayer client:load />
+  <ContactForm />
   <Testimonials />
 </Layout>
