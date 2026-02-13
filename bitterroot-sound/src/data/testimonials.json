@@ -1,32 +1,32 @@
 [
   {
-    "name": "Avery Collins",
-    "role": "Indie Artist",
-    "quote": "Bitterroot Sound took my rough demo and turned it into a release-ready track with incredible depth.",
-    "rating": 5
+    "name": "Sarah M.",
+    "service": "Wedding Song",
+    "location": "Portland OR",
+    "quote": "James captured our 40-year love story perfectly. There wasn't a dry eye at our anniversary party."
   },
   {
-    "name": "Jordan Reyes",
-    "role": "Podcast Host",
-    "quote": "The dialogue cleanup was unreal—background noise disappeared and my voice sounded polished and warm.",
-    "rating": 5
+    "name": "Michael R.",
+    "service": "Memorial Tribute",
+    "location": "Boise ID",
+    "quote": "Hearing my father's voice singing one more time... I can't describe what that meant to our family."
   },
   {
-    "name": "Mina Patel",
-    "role": "Singer-Songwriter",
-    "quote": "Fast turnaround, thoughtful revisions, and mastering that translated perfectly across every platform.",
-    "rating": 5
+    "name": "The Morning Brew Podcast",
+    "service": "Podcast Intro",
+    "location": "Austin TX",
+    "quote": "Our podcast intro is absolutely perfect. Professional quality that makes us sound legit."
   },
   {
-    "name": "Theo Bennett",
-    "role": "Film Composer",
-    "quote": "Their sound design work added cinematic texture and emotion exactly where the scene needed it.",
-    "rating": 5
+    "name": "Amanda K.",
+    "service": "Retirement Song",
+    "location": "Seattle WA",
+    "quote": "Ordered a retirement song for my boss. He ugly-cried in front of the whole office. Worth every penny."
   },
   {
-    "name": "Riley Morgan",
-    "role": "Audiobook Narrator",
-    "quote": "Professional from start to finish. My chapters came back clean, consistent, and ACX-compliant.",
-    "rating": 5
+    "name": "Jenny's Sweet Shop",
+    "service": "Business Jingle",
+    "location": "Missoula MT",
+    "quote": "Got a custom jingle for my bakery. Customers hum it while shopping! Best marketing investment ever."
   }
 ]
