@@ -14,6 +14,14 @@ const durationToSeconds = (duration) => {
   return mins * 60 + secs;
 };
 
+const normalizeAudioSrc = (src) => {
+  if (src.startsWith('http://') || src.startsWith('https://') || src.startsWith('/')) {
+    return src;
+  }
+
+  return `/${src}`;
+};
+
 export default function AudioPlayer() {
   const [activeTrackIndex, setActiveTrackIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -39,7 +47,7 @@ export default function AudioPlayer() {
   useEffect(() => {
     stopCurrentTrack();
     const howl = new Howl({
-      src: [activeTrack.src],
+      src: [normalizeAudioSrc(activeTrack.src)],
       html5: true,
       volume,
       onend: () => {
@@ -47,6 +55,9 @@ export default function AudioPlayer() {
         setCurrentTime(0);
       },
       onloaderror: () => {
+        setIsPlaying(false);
+      },
+      onplayerror: () => {
         setIsPlaying(false);
       }
     });

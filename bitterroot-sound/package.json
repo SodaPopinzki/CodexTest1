@@ -8,7 +8,11 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "predev": "node scripts/generate-placeholder-audio.mjs",
+    "prestart": "node scripts/generate-placeholder-audio.mjs",
+    "prebuild": "node scripts/generate-placeholder-audio.mjs",
+    "prepreview": "node scripts/generate-placeholder-audio.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^4.2.1",
