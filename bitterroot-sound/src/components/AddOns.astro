@@ -1,0 +1,37 @@
+---
+import addons from '../data/addons.json';
+
+const addonIcons = {
+  'Rush Delivery': '⚡',
+  'Alternate Master Version': '🎚️',
+  'Instrumental Bounce': '🎼',
+  'Vocal Up Mix': '🎤',
+  'Radio Edit': '📻',
+  'Stems Export': '🗂️',
+  'Noise Reduction Intensive': '🧼',
+  'Revision Pack (2 Extra)': '🔁',
+  'Project File Archive': '🛟'
+};
+---
+
+<section id="addons" class="bg-[#fdf6ea] py-16 px-6 lg:px-10">
+  <div class="mx-auto max-w-7xl">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl sm:text-4xl text-[#2d1810]">Enhance Your Song</h2>
+      <p class="mt-2 text-base text-[#6f6258]">Add extras to make it perfect</p>
+    </div>
+
+    <div class="flex snap-x gap-4 overflow-x-auto pb-2 md:grid md:grid-cols-3 md:gap-5 md:overflow-visible">
+      {addons.map((addon) => (
+        <article class="min-w-[220px] snap-start rounded-xl border border-[#e5d8bf] bg-white p-4 shadow-sm md:min-w-0">
+          <div class="text-2xl" aria-hidden="true">{addonIcons[addon.name] ?? '✨'}</div>
+          <h3 class="mt-2 text-base font-semibold text-[#2d1810]">{addon.name}</h3>
+          <p class="mt-1 text-sm font-semibold text-amber-800">+${addon.price.toFixed(2)}</p>
+          <p class="mt-2 text-sm text-[#5a4e43]">{addon.description}</p>
+        </article>
+      ))}
+    </div>
+
+    <p class="mt-6 text-center text-sm text-[#6f6258]">Add-ons can be selected during checkout</p>
+  </div>
+</section>
