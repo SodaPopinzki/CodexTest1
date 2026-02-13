@@ -1,0 +1,4 @@
+[build]
+  base = "bitterroot-sound"
+  command = "npm run build"
+  publish = "dist"
