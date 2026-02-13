@@ -1,3 +1,6 @@
 node_modules/
 .astro/
 dist/
+
+public/audio/*.mp3
+!public/audio/.gitkeep

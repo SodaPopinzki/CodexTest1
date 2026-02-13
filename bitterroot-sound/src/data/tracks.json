@@ -2,37 +2,37 @@
   {
     "title": "Bitterroot River Roots",
     "genre": "Country-Reggae Fusion",
-    "duration": "3:24",
-    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "duration": "0:10",
+    "src": "/audio/bitterroot-river-roots.mp3"
   },
   {
     "title": "Highway 93 Cipher",
     "genre": "90s Boom Bap",
-    "duration": "2:58",
-    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    "duration": "0:10",
+    "src": "/audio/highway-93-cipher.mp3"
   },
   {
     "title": "Mountain Morning",
     "genre": "Acoustic Folk",
-    "duration": "4:12",
-    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    "duration": "0:10",
+    "src": "/audio/mountain-morning.mp3"
   },
   {
     "title": "Valley Fog",
     "genre": "Lo-fi Ambient",
-    "duration": "3:45",
-    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+    "duration": "0:10",
+    "src": "/audio/valley-fog.mp3"
   },
   {
     "title": "Steel & Sawdust",
     "genre": "Country Rock",
-    "duration": "3:15",
-    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+    "duration": "0:10",
+    "src": "/audio/steel-and-sawdust.mp3"
   },
   {
     "title": "Midnight in Missoula",
     "genre": "Jazz Hop",
-    "duration": "3:33",
-    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+    "duration": "0:10",
+    "src": "/audio/midnight-in-missoula.mp3"
   }
 ]
