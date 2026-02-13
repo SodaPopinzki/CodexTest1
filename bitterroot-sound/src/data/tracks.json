@@ -1,38 +1,38 @@
 [
   {
-    "title": "Midnight Pines",
-    "genre": "Ambient",
-    "duration": "2:48",
-    "filename": "midnight-pines.mp3"
+    "title": "Bitterroot River Roots",
+    "genre": "Country-Reggae Fusion",
+    "duration": "3:24",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
   },
   {
-    "title": "Riverline Drive",
-    "genre": "Indie Rock",
-    "duration": "3:22",
-    "filename": "riverline-drive.mp3"
+    "title": "Highway 93 Cipher",
+    "genre": "90s Boom Bap",
+    "duration": "2:58",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
   },
   {
-    "title": "Neon Timber",
-    "genre": "Synthwave",
-    "duration": "3:55",
-    "filename": "neon-timber.mp3"
+    "title": "Mountain Morning",
+    "genre": "Acoustic Folk",
+    "duration": "4:12",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
   },
   {
-    "title": "High Meadow Loop",
-    "genre": "Lo-Fi Hip Hop",
-    "duration": "2:31",
-    "filename": "high-meadow-loop.mp3"
+    "title": "Valley Fog",
+    "genre": "Lo-fi Ambient",
+    "duration": "3:45",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
   },
   {
-    "title": "Copper Sky",
-    "genre": "Cinematic",
-    "duration": "4:10",
-    "filename": "copper-sky.mp3"
+    "title": "Steel & Sawdust",
+    "genre": "Country Rock",
+    "duration": "3:15",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
   },
   {
-    "title": "Last Light Motel",
-    "genre": "Alternative Pop",
-    "duration": "3:07",
-    "filename": "last-light-motel.mp3"
+    "title": "Midnight in Missoula",
+    "genre": "Jazz Hop",
+    "duration": "3:33",
+    "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
   }
 ]
