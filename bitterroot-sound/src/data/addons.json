@@ -1,47 +1,47 @@
 [
   {
-    "name": "Rush Delivery",
-    "price": 60,
-    "description": "Move your order to priority queue with 24-hour turnaround where possible."
+    "name": "Rush 24hr Delivery",
+    "price": 49.99,
+    "description": "Prioritized turnaround with delivery in 24 hours where available."
   },
   {
-    "name": "Alternate Master Version",
-    "price": 25,
-    "description": "Receive an additional master optimized for social media short-form platforms."
+    "name": "Rush 48hr Delivery",
+    "price": 29.99,
+    "description": "Expedited production slot with 48-hour delivery."
   },
   {
-    "name": "Instrumental Bounce",
-    "price": 20,
-    "description": "Includes an instrumental version for performances and sync pitching."
+    "name": "Extra Revision Round",
+    "price": 19.99,
+    "description": "Add one additional revision round beyond the standard included edits."
   },
   {
-    "name": "Vocal Up Mix",
-    "price": 20,
-    "description": "Provides a vocal-forward mix ideal for lyric-focused releases."
+    "name": "Extended Length (+2 min)",
+    "price": 24.99,
+    "description": "Extend your custom song by up to two additional minutes."
   },
   {
-    "name": "Radio Edit",
-    "price": 30,
-    "description": "Creates a clean, concise edit suitable for radio and playlist placements."
+    "name": "Instrumental Version",
+    "price": 14.99,
+    "description": "Receive an instrumental-only version for performances and content use."
   },
   {
-    "name": "Stems Export",
-    "price": 45,
-    "description": "Delivers organized stems for live playback, remixes, or label requests."
+    "name": "Stem Files",
+    "price": 34.99,
+    "description": "Get separated stems for flexible mixing, editing, or live playback."
   },
   {
-    "name": "Noise Reduction Intensive",
-    "price": 35,
-    "description": "Advanced restoration pass for problematic recordings with persistent background noise."
+    "name": "Custom Cover Art",
+    "price": 24.99,
+    "description": "Original custom cover artwork designed specifically for your song."
   },
   {
-    "name": "Revision Pack (2 Extra)",
-    "price": 40,
-    "description": "Adds two additional revision rounds beyond the standard included changes."
+    "name": "Lyric Video",
+    "price": 49.99,
+    "description": "A simple lyric video synchronized to your finished track."
   },
   {
-    "name": "Project File Archive",
-    "price": 15,
-    "description": "Secure archive and backup of your session files for 12 months."
+    "name": "Commercial License",
+    "price": 99.99,
+    "description": "Rights for approved business and commercial usage of your track."
   }
 ]

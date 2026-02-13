@@ -124,7 +124,7 @@ export default function PricingCalculator() {
                       />
                       <span className="font-medium">{addon.name}</span>
                     </span>
-                    <span className="text-sm font-semibold text-forest">{currency.format(addon.price)}</span>
+                    <span className="text-sm font-semibold text-forest">+{currency.format(addon.price)}</span>
                   </label>
                 );
               })}
@@ -141,7 +141,7 @@ export default function PricingCalculator() {
               {selectedAddonDetails.map((addon) => (
                 <p key={addon.name} className="flex items-center justify-between text-cream/90">
                   <span>{addon.name}</span>
-                  <span>{currency.format(addon.price)}</span>
+                  <span>+{currency.format(addon.price)}</span>
                 </p>
               ))}
               {selectedAddonDetails.length === 0 && (

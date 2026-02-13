@@ -1,5 +1,6 @@
 ---
 import services from '../data/services.json';
+import addons from '../data/addons.json';
 
 const tierOrder = ['PERSONAL', 'SIGNATURE', 'BUSINESS'];
 
@@ -73,5 +74,19 @@ const groupedServices = tierOrder.map((tier) => ({
         </div>
       ))}
     </div>
+
+    <div class="mt-10 rounded-3xl border border-[#d8cdb8] bg-[#fdf6ea] p-6 md:p-8">
+      <h3 class="text-xl text-[#2d1810]">Available Add-ons</h3>
+      <p class="mt-2 text-sm text-[#6f6258]">Pair any base service with optional enhancements.</p>
+      <div class="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {addons.map((addon) => (
+          <div class="rounded-xl border border-[#e5d8bf] bg-white px-4 py-3">
+            <p class="font-medium text-[#2d1810]">{addon.name}</p>
+            <p class="text-sm font-semibold text-amber-800">+${addon.price.toFixed(2)}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+
   </div>
 </section>
