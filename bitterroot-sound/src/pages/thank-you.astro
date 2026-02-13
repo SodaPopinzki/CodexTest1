@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Thank You | Bitterroot Sound">
+  <section class="min-h-screen bg-cream px-6 py-16 text-bark sm:px-8 lg:px-12">
+    <div class="mx-auto flex w-full max-w-3xl flex-col items-center rounded-2xl border border-gold/40 bg-white/85 p-8 text-center shadow-sm sm:p-12">
+      <div class="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full bg-gold/15">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-12 w-12 text-gold" aria-hidden="true">
+          <path
+            fill-rule="evenodd"
+            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm14.28-2.53a.75.75 0 1 0-1.06-1.06l-4.22 4.22-1.72-1.72a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.06 0l4.75-4.75Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+
+      <h1 class="font-serif text-4xl font-semibold text-forest sm:text-5xl">Your Song is Being Crafted!</h1>
+      <p class="mt-4 max-w-2xl text-lg text-slate">
+        We have received your order and will begin creating your masterpiece.
+      </p>
+
+      <div class="mt-10 w-full rounded-xl border border-forest/15 bg-cream/60 p-6 text-left sm:p-8">
+        <h2 class="font-serif text-2xl text-forest">What happens next:</h2>
+        <ol class="mt-4 list-decimal space-y-3 pl-6 text-base text-slate">
+          <li>You will receive an email confirmation within 1 hour.</li>
+          <li>James reviews your story and begins production.</li>
+          <li>Your completed song arrives in your inbox within [delivery time].</li>
+          <li>Love it? Share it! Not quite right? We offer one free revision.</li>
+        </ol>
+      </div>
+
+      <p class="mt-8 text-base text-slate">Questions? Email james@bitterrootsound.com</p>
+
+      <div class="mt-8 flex flex-col items-center gap-4 sm:flex-row">
+        <a
+          href="/order"
+          class="inline-flex items-center justify-center rounded-md bg-gold px-7 py-3 text-base font-semibold text-bark transition hover:bg-goldLight"
+        >
+          Order Another Song
+        </a>
+        <a href="/" class="text-base font-medium text-forest underline-offset-4 transition hover:underline">Back to Home</a>
+      </div>
+    </div>
+  </section>
+</Layout>
